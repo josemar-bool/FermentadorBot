@@ -34,8 +34,8 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883
-#define AIO_USERNAME    "josemar" // Seu usuario cadastrado na plataforma da Adafruit
-#define AIO_KEY         "aio_YJCH99t5lqxK8EWqB98NNz356kJD"       // Sua key da dashboard
+#define AIO_USERNAME    "xxxxxxx" // Seu usuario cadastrado na plataforma da Adafruit
+#define AIO_KEY         "yyyyyyyyyyyyyyyyyyyyyyyyyyy"       // Sua key da dashboard
  
 #define RELAY_PIN 5
  
@@ -45,11 +45,11 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 #define TIME_TO_SLEEP  60 * 1   /* Time ESP32 will go to sleep (in seconds) */
  
 //Token do seu bot. Troque pela que o BotFather te mostrar
-#define BOT_TOKEN "826920761:AAGdkMoiYhsaQIbQ6KLcLxp95txknAbnwLI"
+#define BOT_TOKEN "zzzzzzzzz:wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww"
  
 //Troque pelo ssid e senha da sua rede WiFi
-#define SSID "BeerPoint"
-#define PASSWORD "tiragosto"
+#define SSID "YOUR_SSID"
+#define PASSWORD "YOUR_PASSWORD"
 
 //Comandos aceitos
 const String LIGHT_ON = "ligar a luz";
